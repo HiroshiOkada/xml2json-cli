@@ -1,0 +1,35 @@
+{
+  "name": "@toycode/xml2json-cli",
+  "version": "0.9.0",
+  "preferGlobal": true,
+  "bin": {
+    "xml2json": "xml2json-cli.js"
+  },
+  "description": "",
+  "keywords": [
+    "xml",
+    "json",
+    "xml2js",
+    "cli"
+  ],
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0"
+  },
+  "scripts": {
+    "xml2json": "node xml2json-cli.js",
+    "test": "./test/test.sh",
+    "watch": "chokidar ./xml2json-cli.js -c \"./test/test.sh\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiroshiOkada/xml2json-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HiroshiOkada/xml2json-cli/issues"
+  },
+  "author": "Hiroshi Okada <okadahiroshi@miobox.jp>",
+  "license": "MIT"
+}
