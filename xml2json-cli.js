@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const parseString = require('xml2js').parseString;
-const INDENT_REX = /-(\d+)/;
+const INDENT_REX = /^-(\d+)$/;
 
 const argv = Array.prototype.slice.call(process.argv, 2);
 
