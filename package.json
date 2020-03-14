@@ -13,10 +13,10 @@
     "cli"
   ],
   "dependencies": {
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.22"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.0"
+    "chokidar-cli": "^1.2.3"
   },
   "scripts": {
     "xml2json": "node xml2json-cli.js",
