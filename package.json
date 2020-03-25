@@ -16,7 +16,7 @@
     "xml2js": "^0.4.22"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.3"
+    "chokidar-cli": "^2.1.0"
   },
   "scripts": {
     "xml2json": "node xml2json-cli.js",
