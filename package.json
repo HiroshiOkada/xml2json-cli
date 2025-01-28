@@ -5,7 +5,7 @@
   "bin": {
     "xml2json": "xml2json-cli.js"
   },
-  "description": "",
+  "description": "CLI tool to convert XML to JSON using xml2js",
   "keywords": [
     "xml",
     "json",
@@ -23,10 +23,7 @@
     "test": "./test/test.sh",
     "watch": "chokidar ./xml2json-cli.js -c \"./test/test.sh\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HiroshiOkada/xml2json-cli.git"
-  },
+  "repository": "github:HiroshiOkada/xml2json-cli",
   "bugs": {
     "url": "https://github.com/HiroshiOkada/xml2json-cli/issues"
   },
