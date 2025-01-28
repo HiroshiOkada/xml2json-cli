@@ -1,6 +1,6 @@
 {
   "name": "@toycode/xml2json-cli",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "preferGlobal": true,
   "bin": {
     "xml2json": "xml2json-cli.js"
